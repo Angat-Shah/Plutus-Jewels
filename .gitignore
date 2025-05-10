@@ -1,0 +1,31 @@
+# Operating System Junk
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor Directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Logs & Runtime
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional Build/Node artifacts
+node_modules/
+dist/
+build/
+
+# Local guides
+GITHUB_SUBMISSION_GUIDE.md
