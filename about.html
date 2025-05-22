@@ -1,0 +1,611 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+    
+<head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>PLUTUS JEWELS® Official Site: </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+
+        <!-- Place favicon.ico in the root directory -->
+
+		<!-- CSS here -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/animate.min.css">
+        <link rel="stylesheet" href="css/magnific-popup.css">
+        <link rel="stylesheet" href="css/fontawesome-all.min.css">
+        <link rel="stylesheet" href="css/flaticon.css">
+        <link rel="stylesheet" href="css/meanmenu.css">
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        <link rel="stylesheet" href="css/meanmenu.css">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <style>
+            section 
+{
+    padding: 60px 0;
+}
+  
+.section-bg 
+{
+    background-color: white;
+}
+  
+  .section-title {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+  
+  .section-title h2 {
+    margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #5f5950;
+  }
+  
+  .section-title h2 span {
+    color: #31A1AA;
+  }
+  
+  .section-title p {
+    margin: 15px auto 0 auto;
+    font-weight: 300;
+  }
+  
+  @media (min-width: 1024px) {
+    .section-title p {
+      width: 50%;
+    }
+  }
+   /*--------------------------------------------------------------
+  # About
+  --------------------------------------------------------------*/
+
+  
+  .about .content {
+    padding: 0 80px;
+  }
+  
+.about .content h3 
+{
+    font-weight: 400;
+    font-size: 34px;
+    color: #5f5950;
+}
+  
+.about .content h4 
+{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 5px;
+    font-family: "Poppins";
+}
+  
+.about .content p 
+{
+    font-size: 15px;
+    color: #848484;
+}
+  
+  .about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about .content ul li+li {
+    margin-top: 15px;
+  }
+  
+  .about .content ul li {
+    position: relative;
+    padding-left: 26px;
+  }
+  
+  .about .content ul i {
+    font-size: 20px;
+    color: #ffb03b;
+    position: absolute;
+    left: 0;
+    top: 2px;
+  }
+  
+  .about .content p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .about .video-box {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 400px;
+    position: relative;
+  }
+  
+  .about .play-btn {
+    width: 50px;
+    height: 50px;
+    background: radial-gradient(gold 50%, powderblue 52%);
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    left: calc(50% - 20px);
+    top: calc(50% - 40px);
+    overflow: hidden;
+  }
+  
+  .about .play-btn::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 100;
+    transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  
+  .about .play-btn::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    animation-delay: 0s;
+    animation: pulsate-btn 2s;
+    animation-direction: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: steps;
+    opacity: 1;
+    border-radius: 50%;
+    border: 5px solid #E0215D;
+    top: -15%;
+    left: -15%;
+    background: rgba(198, 16, 0, 0);
+  }
+  
+  .about .play-btn:hover::after {
+    border-left: 15px solid #31A1AA;
+    transform: scale(20);
+  }
+  
+  .about .play-btn:hover::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-40%) translateY(-50%);
+    width: 0;
+    height: 0;
+    border: none;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #fff;
+    z-index: 200;
+    animation: none;
+    border-radius: 0;
+  }
+  
+  @media (max-width: 1024px) {
+  
+    .about .content,
+    .about .accordion-list {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .about .content {
+      padding-top: 30px;
+    }
+  
+    .about .accordion-list {
+      padding-bottom: 30px;
+    }
+  }
+  
+  @keyframes pulsate-btn {
+    0% {
+      transform: scale(0.6, 0.6);
+      opacity: 1;
+    }
+  
+    100% {
+      transform: scale(1, 1);
+      opacity: 0;
+    }
+  }
+  
+  /*--------------------------------------------------------------
+  # Whu Us
+  --------------------------------------------------------------*/
+.why-us .box   
+{
+    padding: 50px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: all ease-in-out 0.3s;
+    height: 100%;
+}
+.why-us .box span 
+{
+    display: block;
+    font-size: 28px;
+    font-weight: 700;
+    color: #AFE0F5;
+}
+.why-us .box h4 
+{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0;
+    margin: 20px 0;
+    color: #6c665c;
+    text-decoration: none;
+}  
+.why-us .box p 
+{
+    color: #aaaaaa;
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}  
+.why-us .box:hover 
+{
+    background: #0A527E;
+    padding: 30px 30px 70px 30px;
+    box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+    border-radius: 25px;
+}  
+.why-us .box:hover span,
+.why-us .box:hover h4,
+.why-us .box:hover p 
+{
+    color: #fff;
+}
+.why-us .box:hover h4
+{
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
+.why-us .box .buttonoverlap
+{
+    border-radius: 25px;
+    border: none;
+    padding-left: 15px;
+    padding-top: 6px;
+    padding-right: 15px;
+    padding-bottom: 6px;
+    background: white;
+    visibility: hidden;
+}
+.why-us .box:hover .buttonoverlap
+{
+    visibility: visible;
+}
+.why-us .box .buttonoverlap:hover
+{
+  outline: solid white;
+  outline-offset: 1.5px;
+  box-shadow: 0px 2px 0px 8px #AFE0F5;
+}
+        </style>
+    </head>
+    <body>
+
+        <!-- preloader -->
+        <div id="preloader">
+            <div class="preloader">
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- preloader end  -->
+
+        <!-- header start -->
+        <header>
+          <div id="header-sticky" class="header-area box-90">
+              <div class="container-fluid">
+                  <div class="row align-items-center">
+                      <div class="col-xl-2 col-lg-6 col-md-6 col-7 col-sm-5 d-flex align-items-center pos-relative">
+                          <div class="basic-bar cat-toggle">
+                              <span class="bar1"></span>
+                              <span class="bar2"></span>
+                              <span class="bar3"></span>
+                          </div>
+                          <div class="logo">
+                              <a href="index.html"><img src="assets/PJ.png" alt=""></a>
+                          </div>
+
+                          <div class="category-menu">
+                              <h4>Category</h4>
+                              <ul>
+                                  <li><a href="rings.html"><i class="flaticon-shopping-cart-1"></i>Rings</a></li>
+                                  <li><a href="earrings.html"><i class="flaticon-shopping-cart-1"></i>Earrings</a></li>
+                                  <li><a href="bracelets.html"><i class="flaticon-shopping-cart-1"></i>Bracelets</a></li>
+                                  <li><a href="necklaces.html"><i class="flaticon-shopping-cart-1"></i>Necklaces</a></li>
+                                  <li><a href="pendants.html"><i class="flaticon-shopping-cart-1"></i>Pendants</a></li>
+                              </ul>
+                          </div>
+                      </div>
+                      <div class="col-xl-7 col-lg-6 col-md-8 col-8 d-none d-xl-block">
+                          <div class="main-menu">
+                              <nav id="mobile-menu">
+                                  <ul>
+                                      <li>
+                                          <a href="index.html">Home</a>
+                                      </li>
+                                      <li>
+                                          <a href="guidance.html">Guidance</a>
+                                      </li>
+                                      <li>
+                                          <a href="blog.html">Blog</a>
+                                      </li>
+                                      <li>
+                                          <a href="#">FAQ's</a>
+                                      </li>
+                                      <li>
+                                          <a href="about.html">About Us</a>
+                                          <!-- <ul class="submenu">
+                                              <li>
+                                                  <a href="about.html">About Us</a>
+                                              </li>
+
+                                              <li>
+                                                  <a href="contact.html">Contact Us</a>
+                                              </li>
+                                          </ul> -->
+                                      </li>
+                                      <li>
+                                          <a href="contact.html">Contact Us</a>
+                                      </li>
+                                  </ul>
+                              </nav>
+                          </div>
+                      </div>
+                      <div class="col-xl-3 col-lg-6 col-md-6 col-5 col-sm-9 pl-0">
+                          <div class="header-right f-right">
+                              <ul>
+                                  <li class="search-btn">
+                                      <a class="search-btn nav-search search-trigger" href="#"><i class="fas fa-search"></i></a>
+                                  </li>
+                                  <li class="login-btn"><a href="#"><i class="far fa-user"></i></a></li>
+                      <div class="col-12 d-xl-none">
+                          <div class="mobile-menu"></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>
+        <!-- header end -->
+
+
+        <main>
+
+        <!-- breadcrumb-area-start -->
+        <section class="breadcrumb-area" data-background="img/bg/page-title.png">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="breadcrumb-text text-center">
+                            <h1>About Us</h1>
+                            <ul class="breadcrumb-menu">
+                                <li><a href="index.html">home</a></li>
+                                <li><span>About</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- breadcrumb-area-end -->
+
+            <!-- page-title-area end -->
+               
+            
+                <section id="why-us" class="why-us">
+                  <div class="container">
+            
+                    <div class="section-title">
+                      <h2>Why choose <span>Plutus Jewels</span></h2>
+                      <p>We are dedicated to providing you with not just jewelry but a piece of art that tells a unique story. Our commitment to quality, innovation, and customer satisfaction is unwavering. Every piece in our collection is a testament to our dedication to craftsmanship and attention to detail.
+            Our Jewelry</p>
+                    </div><br><br><br>
+            
+                    <div class="row">
+            
+                      <div class="col-lg-4">
+                        <div class="box">
+                          <span>01</span>
+                          <h4>Our Commitment</h4>
+                          <p>We are dedicated to providing you with not just jewelry but a piece of art that tells a unique story. Our commitment to quality, innovation, and customer satisfaction is unwavering. Every piece in our collection is a testament to our dedication to craftsmanship and attention to detail.</p><br>
+                          <a href="#">
+                          <button class="buttonoverlap">Find out more</button></a>
+                        </div>
+                      </div>
+            
+                      <div class="col-lg-4 mt-4 mt-lg-0">
+                        <div class="box">
+                          <span>02</span>
+                          <h4>Our Jewelry</h4></a>
+                          <p>Explore our extensive collection of stunning jewelry, from classic diamond engagement rings to fashionable gemstone necklaces and bracelets. Our pieces are handcrafted with the finest materials and meticulous care, ensuring durability and timeless beauty. We also offer custom design services, allowing you to create a one-of-a-kind piece that reflects your individuality.</p><br>
+                          <a href="#">
+                          <button class="buttonoverlap">Find out more</button></a>
+                        </div>
+                      </div>
+            
+                      <div class="col-lg-4 mt-4 mt-lg-0">
+                        <div class="box">
+                          <span>03</span>
+                          <h4>Ethical Sourcing</h4>
+                          <p>We are committed to responsible sourcing and sustainability. Many of our gemstones and materials are ethically mined and sourced, and we take great care to minimize our environmental impact.</p><br>
+                          <a href="#">
+                          <button class="buttonoverlap">Find out more</button></a>
+                        </div></a>
+                      </div>
+                    </div>
+                  </div>
+
+
+                   <div class="container">
+                    <div class="row">
+                      <div class="col-lg-4">
+                        <div class="box">
+                          <span>04</span>
+                          <h4>Shopping Experience</h4>
+                          <p>Plutus Jewels provides the exquisite craftsmanship of beautiful jewellery designs such as rings, earrings, pendants, necklace, chains, bangles, bracelets, mangalsutra, nose pins. Apart from jewellery, Plutus Jewels offers 22k (916) and 24k (995) gold coins with certification and the guarantee of a BIS Hallmarked stamp.</p><br>
+                          <a href="#">
+                          <button class="buttonoverlap">Find out more</button></a>
+                        </div>
+                      </div>
+            
+                      <div class="col-lg-4 mt-4 mt-lg-0">
+                        <div class="box">
+                          <span>05</span>
+                          <h4>Our Vision</h4></a>
+                          <p>Plutus Jewels works with the vision of offering tastefully designed jewellery at revolutionary prices. This is achieved by eliminating all inefficiencies which result in drastically reduced costs. With Plutus Jewels, users stand to save as much as 30% when compared to prices in the market</p><br>
+                          <a href="#">
+                          <button class="buttonoverlap">Find out more</button></a>
+                        </div>
+                      </div>
+            
+                      <div class="col-lg-4 mt-4 mt-lg-0">
+                        <div class="box">
+                          <span>06</span>
+                          <h4>Our Story</h4>
+                          <p>Plutus Jewels was founded in 2008, with the objective to make beautiful jewellery accessible, affordable and forever wearable. After speaking to hundreds of women across the country, we came to find that there was a common dilemma women faced - picking between expensive jewellery for special occasions, and everyday jewellery that was of inferior quality and was not keeping pace with their changing lifestyle</p><br>
+                          <a href="#">
+                          <button class="buttonoverlap">Find out more</button></a>
+                        </div></a>
+                      </div>
+                    </div>
+                  </div>
+                </section><!-- End Whu Us Section -->
+                
+              <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+        <!-- footer start -->
+        <footer>
+            <div class="footer-area box-90 pt-100 pb-60">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-5 col-md-6 ">
+                            <div class="footer-widget mb-40">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="assets/PJ.png" alt=""></a>
+                                </div>
+                                <p>We are dedicated to providing you with not just jewelry but a piece of art that tells a unique story. Our commitment to quality, innovation, and customer satisfaction is unwavering. Every piece in our collection is a testament to our dedication to craftsmanship and attention to detail. Our Jewelry
+                                </p>
+                                <div class="footer-time d-flex mt-30">
+                                    <div class="time-icon">
+                                        <img src="img/icon/time.png" alt="">
+                                    </div>
+                                    <div class="time-text">
+                                        <span>Got Questions ? Call us 24/7!</span>
+                                        <h2>+91 9974880994</h2>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-3 d-lg-none d-xl-block">
+                            <div class="footer-widget pl-50 mb-40">
+                                <h3>Social Media</h3>
+                                <ul class="footer-link">
+                                    <li><a href="#">Facebook</a></li>
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="#">Linkedin</a></li>
+                                    <li><a href="#">Youtube</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-3 d-lg-none d-xl-block">
+                            <div class="footer-widget pl-30 mb-40">
+                                <h3>PJ Advantages</h3>
+                                <ul class="footer-link">
+                                    <li><a href="#">10-Day Returns</a></li>
+                                    <li><a href="#">Old Gold Exchange</a></li>
+                                    <li><a href="#">Financing Options</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-2 col-md-3">
+                            <div class="footer-widget mb-40">
+                                <h3>About</h3>
+                                <ul class="footer-link">
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                    <li><a href="#"> Privacy Policy</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                    <li><a href="#">FAQ</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-3 col-lg-5 col-md-6">
+                            <div class="footer-widget mb-40">
+                                <div class="footer-banner">
+                                    <a href="shop.html"><img src="img/banner/add.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright-area box-105">
+                <div class="container-fluid">
+                    <div class="copyright-border pt-30 pb-30">
+                        <div class="row">
+                            <div class="col-xl-6 col-lg-6 col-md-7">
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer end -->
+
+        <!-- Fullscreen search -->
+        <div class="search-wrap">
+            <div class="search-inner">
+                <i class="fas fa-times search-close" id="search-close"></i>
+                <div class="search-cell">
+                    <form method="get">
+                        <div class="search-field-holder">
+                            <input type="search" class="main-search-input" placeholder="Search Entire Store...">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div> <!-- end fullscreen search -->
+
+
+
+
+
+		<!-- JS here -->
+        <script src="js/vendor/jquery-1.12.4.min.js"></script>
+        <script src="js/jquery-ui.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/isotope.pkgd.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/jquery.meanmenu.min.js"></script>
+        <script src="js/ajax-form.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/jquery.scrollUp.min.js"></script>
+        <script src="js/jquery.final-countdown.min.js"></script>
+        <script src="js/imagesloaded.pkgd.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
